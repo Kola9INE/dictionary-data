@@ -14,7 +14,7 @@ def retrieve(value:str):
             for sn, meanings in enumerate(meaning, 1):
                 yield(sn, meanings)
         except:
-            print('\nThere is a problem with that word! Try searching another word!\n')
+            print('\nWe cannot locate that word! Try searching another word!\n')
     else:
         print('Errr... Something went wrong.')
     
